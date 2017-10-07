@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CreateMOve.cpp" />
+    <ClCompile Include="Crosshair.cpp" />
+    <ClCompile Include="Draw.cpp" />
+    <ClCompile Include="DrawModelExecute.cpp" />
+    <ClCompile Include="DynSkin\File.cpp" />
+    <ClCompile Include="DynSkin\Valve.cpp" />
+    <ClCompile Include="EndScene.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="EngineTrace.cpp" />
+    <ClCompile Include="ESP.cpp" />
+    <ClCompile Include="FireBullet.cpp" />
+    <ClCompile Include="FixMove.cpp" />
+    <ClCompile Include="FrameStageNotify.cpp" />
+    <ClCompile Include="GameEvents.cpp" />
+    <ClCompile Include="GameUtils.cpp" />
+    <ClCompile Include="global.cpp" />
+    <ClCompile Include="groupbox.cpp" />
+    <ClCompile Include="Hitmarker.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MaterialHelper.cpp" />
+    <ClCompile Include="Math.cpp" />
+    <ClCompile Include="Misc.cpp" />
+    <ClCompile Include="netvars.cpp" />
+    <ClCompile Include="NoSpread.cpp" />
+    <ClCompile Include="offsets.cpp" />
+    <ClCompile Include="OverrideView.cpp" />
+    <ClCompile Include="Paint.cpp" />
+    <ClCompile Include="PaintTraverse.cpp" />
+    <ClCompile Include="PredictionSystem.cpp" />
+    <ClCompile Include="Render.cpp" />
+    <ClCompile Include="Resolver.cpp" />
+    <ClCompile Include="security.cpp" />
+    <ClCompile Include="Skins.cpp" />
+    <ClCompile Include="skinsutil.cpp" />
+    <ClCompile Include="SpoofedConvar.cpp" />
+    <ClCompile Include="tinyxml2.cpp" />
+    <ClCompile Include="Utilities.cpp" />
+    <ClCompile Include="WndProc.cpp" />
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Features\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Antiaim.cpp">
+      <Filter>Features\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Autowall.cpp">
+      <Filter>Features\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="BacktrackingHelper.cpp">
+      <Filter>Features\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseEntity.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="structs\checksum_md5.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>Framework\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="category.cpp">
+      <Filter>Framework\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="checkbox.cpp">
+      <Filter>Framework\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="colorpicker.cpp">
+      <Filter>Framework\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="controls.cpp">
+      <Filter>Framework\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="dropdown.cpp">
+      <Filter>Framework\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="keybind.cpp">
+      <Filter>Framework\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="miniwindow.cpp">
+      <Filter>Framework\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="savepanel.cpp">
+      <Filter>Framework\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="skinpanel.cpp">
+      <Filter>Framework\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="tab.cpp">
+      <Filter>Framework\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="textbox.cpp">
+      <Filter>Framework\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Framework\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="skinchanger.cpp">
+      <Filter>Features\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Damagelist.cpp">
+      <Filter>Framework\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="slider.cpp">
+      <Filter>Framework\Elements</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Crosshair.h" />
+    <ClInclude Include="definitions.h" />
+    <ClInclude Include="dirent.h" />
+    <ClInclude Include="Draw.h" />
+    <ClInclude Include="DynSkin\HFile.h" />
+    <ClInclude Include="DynSkin\HSkins.h" />
+    <ClInclude Include="DynSkin\HValve.h" />
+    <ClInclude Include="ESP.h" />
+    <ClInclude Include="FixMove.h" />
+    <ClInclude Include="GameUtils.h" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="groupbox.h" />
+    <ClInclude Include="Hitmarker.h" />
+    <ClInclude Include="hooks.h" />
+    <ClInclude Include="interfaces.h" />
+    <ClInclude Include="MaterialHelper.h" />
+    <ClInclude Include="Math.h" />
+    <ClInclude Include="Misc.h" />
+    <ClInclude Include="netvars.h" />
+    <ClInclude Include="NoSpread.h" />
+    <ClInclude Include="post.h" />
+    <ClInclude Include="PredictionSystem.h" />
+    <ClInclude Include="Render.h" />
+    <ClInclude Include="Resolver.h" />
+    <ClInclude Include="RollVector.h" />
+    <ClInclude Include="sdk.h" />
+    <ClInclude Include="security.h" />
+    <ClInclude Include="skinsutil.h" />
+    <ClInclude Include="SpoofedConvar.h" />
+    <ClInclude Include="sse69.h" />
+    <ClInclude Include="structs\debugoverlay.h" />
+    <ClInclude Include="structs\dt_common2.h" />
+    <ClInclude Include="structs\dt_recv2.h" />
+    <ClInclude Include="structs\effects.h" />
+    <ClInclude Include="structs\engine.h" />
+    <ClInclude Include="structs\engineprediction.h" />
+    <ClInclude Include="structs\enginevgui.h" />
+    <ClInclude Include="structs\firebullet.h" />
+    <ClInclude Include="structs\gameevent.h" />
+    <ClInclude Include="structs\globals.h" />
+    <ClInclude Include="structs\input.h" />
+    <ClInclude Include="structs\materials.h" />
+    <ClInclude Include="structs\modelinfo.h" />
+    <ClInclude Include="structs\msg.h" />
+    <ClInclude Include="structs\offsets.h" />
+    <ClInclude Include="structs\panel.h" />
+    <ClInclude Include="structs\physics.h" />
+    <ClInclude Include="structs\playerinfo.h" />
+    <ClInclude Include="structs\quaternion.h" />
+    <ClInclude Include="structs\surface.h" />
+    <ClInclude Include="structs\trace.h" />
+    <ClInclude Include="structs\usercmd.h" />
+    <ClInclude Include="structs\vector.h" />
+    <ClInclude Include="structs\vmatrix.h" />
+    <ClInclude Include="tinyxml2.h" />
+    <ClInclude Include="Utilities.h" />
+    <ClInclude Include="vmt.h" />
+    <ClInclude Include="xor.h" />
+    <ClInclude Include="structs\angle.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Antiaim.h">
+      <Filter>Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Autowall.h">
+      <Filter>Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="BacktrackingHelper.h">
+      <Filter>Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\basecombatweapon.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\bspflags.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\baseentity.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\CGlow.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\checksum_md5.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\client.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\cliententlist.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\clientrecvprops.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\clientmodeshared.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\convar.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\crc32.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="baseelement.h">
+      <Filter>Framework\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>Framework\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="category.h">
+      <Filter>Framework\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="checkbox.h">
+      <Filter>Framework\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="colorpicker.h">
+      <Filter>Framework\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="dropdown.h">
+      <Filter>Framework\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="keybind.h">
+      <Filter>Framework\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>Framework\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="miniwindow.h">
+      <Filter>Framework\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="savepanel.h">
+      <Filter>Framework\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="skinpanel.h">
+      <Filter>Framework\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="tab.h">
+      <Filter>Framework\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="textbox.h">
+      <Filter>Framework\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="skinchanger.h">
+      <Filter>Features\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="controls.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Damagelist.h">
+      <Filter>Framework\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="slider.h">
+      <Filter>Framework\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{3cdc472c-6c5f-49c6-a335-ef57ea8163bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{76de139b-878a-4716-a6fa-53cb07698a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{db417934-4980-4df1-93c4-e560cfd9e8ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Aimbot">
+      <UniqueIdentifier>{f2cebd1b-8e83-48a5-bcb7-2907bc4a9908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Misc">
+      <UniqueIdentifier>{a8893c72-de1b-42f8-b084-e3bb2354aaa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Elements">
+      <UniqueIdentifier>{731dd51a-2059-444f-8bcc-9046eeabffd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Drawing">
+      <UniqueIdentifier>{160f5673-14de-4096-b9a3-95119e0cab32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Visuals">
+      <UniqueIdentifier>{4d9d730d-ee5a-47ad-8cc7-8ecffcd04787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\structs">
+      <UniqueIdentifier>{8a972f70-4df7-471f-8b40-ce019c5c4b14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
