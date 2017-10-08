@@ -3380,6 +3380,7 @@ void SetupRagebotCat(MWindow* MainWindow)
 	RagebotElements.Ragebot_FOV = new MSlider(RagebotElements.Ragebot_Main, XorStr("Maximum aim angle"), XorStr("Select the fov to aim at"), 0, 180, true, RagebotElements.RagebotCat, XorStr("fb_fov"));
 	RagebotElements.Ragebot_BodyAWP = new MCheckbox(RagebotElements.Ragebot_Main, XorStr("Automatic bodyaim with awp"), XorStr("Aims always at the body with an awp"), RagebotElements.RagebotCat, XorStr("rb_bodyawp"));
 	RagebotElements.Ragebot_AutoShoot = new MCheckbox(RagebotElements.Ragebot_Main, XorStr("Automatic fire"), XorStr("Automatically shoots"), RagebotElements.RagebotCat, XorStr("rb_autoshoot"));
+    RagebotElements.Ragebot_SecondaryRevolver = new MCheckbox( RagebotElements.Ragebot_Main, XorStr( "Revolver secondary fire" ), XorStr( "Automatically shoots" ), RagebotElements.RagebotCat, XorStr( "rb_autoshoot" ) );
 	
 
 	RagebotElements.Ragebot_Selection = new MGroupbox(RagebotElements.RagebotCat, XorStr("Selection"), 1, 2, 1, 1, false);

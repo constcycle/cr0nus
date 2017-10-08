@@ -170,6 +170,7 @@ public:
 	MSlider* Ragebot_FOV = nullptr;
 	MCheckbox* Ragebot_BodyAWP = nullptr;
 	MCheckbox* Ragebot_AutoShoot = nullptr;
+    MCheckbox* Ragebot_SecondaryRevolver = nullptr;
 
 	MGroupbox* Ragebot_Selection = nullptr;
 	MDropdown* Ragebot_SelectBy = nullptr;
